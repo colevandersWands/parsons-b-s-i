@@ -6,6 +6,6 @@ const repeatString = (text = '', repetitions = 1) =>
     ? ''
     : text + repeatString(text, nextRepetitions - 1);
 
-// prettier-ignore
-repetitions = 0 // distractor
+
 const repeatString = (text = '', repetitions = 1) => { // distractor
+repetitions = 0 // distractor
